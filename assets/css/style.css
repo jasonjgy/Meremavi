@@ -301,7 +301,7 @@ ul.list-check li::before {
 
 .section-title::after {
     content: "";
-    background: url(../../assets/images/section-divider.png) no-repeat 0 0;
+    background: url(../../assets/images/proyectos/web.png) no-repeat 0 0;
     height: 15px;
     width: 113px;
     position: absolute;
@@ -321,7 +321,7 @@ ul.list-check li::before {
 }
 
 #inicio {
-    background: url(../images/home2.jpg) no-repeat center center;
+    background: url(../images/web.png) no-repeat center center;
     -webkit-background-attachment: fixed;
     background-attachment: fixed;
     background-color: #222;
@@ -612,7 +612,7 @@ SOCIAL ICON
 
 .myphoto {
     position: relative;
-    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
+    background: url(../../assets/images/web.png) bottom center no-repeat;
     background-size: contain;
 }
 
