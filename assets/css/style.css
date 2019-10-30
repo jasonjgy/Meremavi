@@ -313,6 +313,8 @@ ul.list-check li::before {
 
 fb-page {
     color: red;
+    width: 113px;
+    position: absolute;
 }
 
 
