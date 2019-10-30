@@ -311,10 +311,13 @@ ul.list-check li::before {
     margin: 0 auto;
 }
 
-fb-page {
+.fb-page {
     color: red;
     width: 113px;
     position: absolute;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
