@@ -37,6 +37,72 @@ html {
 }
 
 
+/*
+Geleria
+
+
+*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 150px;
+    height: 100px;
+}
+
+
+/*Estilos del modal*/
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+
 /* Link style
 ---------------------------------------------------------*/
 
@@ -315,9 +381,8 @@ ul.list-check li::before {
     color: red;
     width: 113px;
     position: absolute;
-    margin: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 
