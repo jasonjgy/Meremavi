@@ -311,6 +311,10 @@ ul.list-check li::before {
     margin: 0 auto;
 }
 
+fb-page {
+    color: red;
+}
+
 
 /* === HOME === */
 
