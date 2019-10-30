@@ -315,7 +315,7 @@ ul.list-check li::before {
     color: red;
     width: 113px;
     position: absolute;
-    margin: 20px;
+    margin: 50px;
     margin-left: auto;
     margin-right: auto;
 }
